@@ -1,0 +1,34 @@
+-Classe mínima + instância
+Crie a classe Caneta. Não tenha nada além do corpo da classe. No main, faça new Caneta() e explique o que é “objeto” nessa linha.
+
+---
+
+-Atributos básicos
+Em Caneta, adicione atributos cor:String e espessura:double. No main, crie duas canetas com valores diferentes e imprima os atributos. Mostre que cada objeto tem seu próprio estado.
+
+---
+
+-Método com comportamento
+Em Caneta, crie escrever(String texto) que imprime "[cor] -> texto". Demonstre chamando o método em duas instâncias com cores distintas.
+
+---
+
+-Construtor e atributos obrigatórios
+Adicione um construtor Caneta(String cor, double espessura) e remova o construtor padrão. No main, crie 3 objetos e valide os atributos iniciais.
+
+---
+
+-Classe com múltiplos métodos
+Crie Lampada com atributos ligada:boolean e métodos ligar(), desligar(), isLigada(). No main, alterne estados e imprima.
+
+---
+
+-Objeto como atributo (composição)
+Crie Mesa com atributo Caneta canetaFavorita. No main, associe uma Caneta a uma Mesa e chame canetaFavorita.escrever(...).
+
+---
+
+-Retorno de objeto
+Em FabricaDeCanetas, crie criarAzul():Caneta e criarPreta():Caneta. No main, receba e use as instâncias.
+
+---
