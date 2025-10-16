@@ -1,4 +1,4 @@
-import java.util.ArrayList;
+import java.util.*;
 public class Main_formas {
     public static void main(String[] args) {
         ArrayList<AreaCalculavel> formas = new ArrayList<>();
